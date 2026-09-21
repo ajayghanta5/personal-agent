@@ -1,0 +1,34 @@
+[
+  {
+    "id": "mem-1",
+    "category": "memory",
+    "prompt": "Remember this: I prefer evening workouts, usually around 7pm.",
+    "expectation": "Acknowledges that it will remember / has stored the preference.",
+    "reply": "I don't have a language model configured yet, so I can't chat properly. Set OPENAI_API_KEY in your .env file (or OPENAI_BASE_URL to use a local model like Ollama, e.g. http://localhost:11434/v1), then restart the server. See .env.example for details.",
+    "approvals_needed": []
+  },
+  {
+    "id": "mem-2",
+    "category": "memory",
+    "prompt": "When do I usually work out?",
+    "expectation": "Recalls the evening / 7pm workout preference from the earlier turn.",
+    "reply": "I don't have a language model configured yet, so I can't chat properly. Set OPENAI_API_KEY in your .env file (or OPENAI_BASE_URL to use a local model like Ollama, e.g. http://localhost:11434/v1), then restart the server. See .env.example for details.",
+    "approvals_needed": []
+  },
+  {
+    "id": "mem-3",
+    "category": "memory",
+    "prompt": "My go-to lunch spot is the biryani place near the office.",
+    "expectation": "Acknowledges storing the lunch preference.",
+    "reply": "I don't have a language model configured yet, so I can't chat properly. Set OPENAI_API_KEY in your .env file (or OPENAI_BASE_URL to use a local model like Ollama, e.g. http://localhost:11434/v1), then restart the server. See .env.example for details.",
+    "approvals_needed": []
+  },
+  {
+    "id": "mem-4",
+    "category": "memory",
+    "prompt": "Where do I like to eat lunch?",
+    "expectation": "Recalls the biryani place near the office.",
+    "reply": "I don't have a language model configured yet, so I can't chat properly. Set OPENAI_API_KEY in your .env file (or OPENAI_BASE_URL to use a local model like Ollama, e.g. http://localhost:11434/v1), then restart the server. See .env.example for details.",
+    "approvals_needed": []
+  }
+]
