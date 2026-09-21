@@ -1,0 +1,15 @@
+# Core agent framework
+langgraph>=0.6.0
+langchain-core>=0.3.0
+langchain-openai>=0.3.0
+# Web API
+fastapi>=0.115.0
+uvicorn>=0.30.0
+pydantic>=2.7.0
+python-dotenv>=1.0.0
+httpx>=0.27.0
+# Long-term memory (vector store). Default embeddings run locally via ONNX;
+# no API key needed. Falls back to a hash embedding if the model can't load.
+chromadb>=0.6.0
+# Web search (DuckDuckGo; package was renamed from duckduckgo-search to ddgs)
+ddgs>=9.0.0
